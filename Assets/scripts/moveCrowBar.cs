@@ -3,7 +3,7 @@ using System.Collections;
 
 public class moveCrowBar : MonoBehaviour {
 
-    Vector3 movement = new Vector3 (0,0,-2);
+    Vector3 movement = new Vector3 (0,0,-3);
 	// Use this for initialization
 	void Start () {
 	   

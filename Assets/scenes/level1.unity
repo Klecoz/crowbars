@@ -671,9 +671,32 @@ Prefab:
       propertyPath: m_Name
       value: hand (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 95000010878142358, guid: 375878ed5c72a4dc6a195e6d61377cea, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 375878ed5c72a4dc6a195e6d61377cea, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1641457561 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000012588914778, guid: 375878ed5c72a4dc6a195e6d61377cea,
+    type: 2}
+  m_PrefabInternal: {fileID: 1410293837}
+--- !u!95 &1641457563
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1641457561}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: edf567f07eab74a31906f218679939cf, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1756329873
 GameObject:
   m_ObjectHideFlags: 0
@@ -891,7 +914,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   crowbar: {fileID: 1000011978752596, guid: 6eb9a17130a8e834cb3d2ecb908f5a8e, type: 2}
-  spawnTime: 2
+  spawnTime: 1
 --- !u!4 &2113635031
 Transform:
   m_ObjectHideFlags: 0

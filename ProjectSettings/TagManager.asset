@@ -6,6 +6,7 @@ TagManager:
   tags:
   - crowbar
   - fist
+  - destroyWall
   layers:
   - Default
   - TransparentFX

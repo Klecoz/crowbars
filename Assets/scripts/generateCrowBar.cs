@@ -21,6 +21,6 @@ public class generateCrowBar : MonoBehaviour {
 
     void spawnCrowbar()
     {
-		GameObject.Instantiate(crowbar, new Vector3(Random.Range(-2, 2), spawny, 8), Quaternion.identity);
+        GameObject.Instantiate(crowbar, new Vector3(Random.Range(-2, 2), spawny, 8), Quaternion.identity);
     }
 }

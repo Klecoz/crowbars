@@ -6,6 +6,9 @@ public class generateCrowBar : MonoBehaviour {
     public GameObject crowbar;
 
     public float spawnTime = 3f;
+
+	private float spawny = 1.5f;
+
 	// Use this for initialization
 	void Start () {
         InvokeRepeating("spawnCrowbar", spawnTime, spawnTime);
@@ -18,6 +21,6 @@ public class generateCrowBar : MonoBehaviour {
 
     void spawnCrowbar()
     {
-        var newCrowbar = GameObject.Instantiate(crowbar, new Vector3(Random.Range(-2, 2), 2, 8), Quaternion.identity);
+		GameObject.Instantiate(crowbar, new Vector3(Random.Range(-2, 2), spawny, 8), Quaternion.identity);
     }
 }
